@@ -3,19 +3,21 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background: linear-gradient(45deg, #2c3e50, #3498db);
+    min-height: 100vh;
+    background: linear-gradient(45deg, #fddede, #fbb6c7); /* Gradient rosa moderado */
 }
 
 .link-tree {
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 214, 219, 0.8); /* Rosa moderado com opacidade */
     padding: 40px;
     border-radius: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-    width: 30%;
+    width: 25%;
+    margin-bottom: 20px;
 }
 
 .profile-img {
@@ -25,11 +27,19 @@ body {
     object-fit: cover;
     margin-bottom: 20px;
     transition: transform 0.3s ease-in-out;
-    border: 5px solid #3498db;
+    border: 5px solid #fbb6c7; /* Cor rosa moderada para a borda */
 }
 
 .profile-img:hover {
     transform: scale(1.1);
+}
+
+.name {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #744d68; /* Cor de texto mais moderada */
+    margin-bottom: 10px;
 }
 
 .links-container {
@@ -42,8 +52,8 @@ body {
     display: inline-block;
     margin: 15px;
     padding: 20px 40px;
-    background-color: #3498db;
-    color: #fff;
+    background-color: #fbb6c7; /* Cor rosa moderada para os links */
+    color: #744d68; /* Cor de texto mais moderada */
     text-decoration: none;
     border-radius: 30px;
     font-weight: bold;
@@ -51,8 +61,26 @@ body {
 }
 
 .link:hover {
-    background-color: #2980b9;
+    background-color: #fddede; /* Cor rosa mais clara ao passar o mouse */
     transform: scale(1.15);
+}
+
+.footer {
+    text-align: center;
+    font-size: 14px;
+    color: #9b9b9b;
+    margin-bottom: 10px;
+}
+
+.footer a {
+    color: #9b9b9b;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    color: #744d68; /* Destaque de cor ao passar o mouse sobre o link */
 }
 
 @media only screen and (max-width: 600px) {
