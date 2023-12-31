@@ -85,10 +85,18 @@ body {
 
 @media only screen and (max-width: 600px) {
     /* Responsividade para dispositivos móveis */
+    .link-tree {
+        width: 50%; /* Ajustado para 90% da largura da tela em dispositivos móveis */
+    }
+
     .profile-img {
         width: 100px;
         height: 100px;
         margin-bottom: 10px;
+    }
+
+    .name {
+        font-size: 18px; /* Ajustado o tamanho do nome para dispositivos móveis */
     }
 
     .link {
