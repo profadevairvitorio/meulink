@@ -55,7 +55,7 @@ Para clonar e executar este projeto localmente, siga estas etapas:
 Contribuições são bem-vindas! Se você tiver sugestões, melhorias ou encontrar algum bug, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
 ## Licença
-MIT License
+MIT License 
 
 Copyright (c) 2024 - [@profadevairvitorio](https://github.com/profadevairvitorio)
 
