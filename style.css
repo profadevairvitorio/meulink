@@ -1,0 +1,46 @@
+body {
+    background-color: #121212;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+}
+
+.imagem-perfil {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+a {
+    display: block;
+    background-color: #1f1f1f;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background 0.5s;
+}
+
+a:hover {
+    background-color: #333;
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #aaa;
+}
